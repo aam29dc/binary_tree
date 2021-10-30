@@ -17,9 +17,5 @@ int main() {
 
 	bt.prependNode(12, 99, LEFT, bt._root);
 
-	std::cout << std::endl;
-
-	std::cout << bt.distance(6,9,bt._root) << std::endl;
-
 	return 0;
 }
